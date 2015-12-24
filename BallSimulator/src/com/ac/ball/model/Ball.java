@@ -1,6 +1,7 @@
 package com.ac.ball.model;
 
 import java.util.Observable;
+import java.util.Observer;
 
 public class Ball extends Observable {
 	private BallState state;
@@ -19,4 +20,10 @@ public class Ball extends Observable {
 		notifyObservers();
 	}
 
+	@Override
+	public synchronized void addObserver(Observer o) {
+		super.addObserver(o);
+		setChanged();
+		notifyObservers();
+	}
 }
