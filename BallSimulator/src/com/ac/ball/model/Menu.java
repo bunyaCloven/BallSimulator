@@ -1,4 +1,4 @@
-package model;
+package com.ac.ball.model;
 
 import java.util.Observable;
 

@@ -1,8 +1,10 @@
+package com.ac.ball;
+
 import java.io.IOException;
 
-import controller.ConsoleJuggler;
-import view.ConsoleBallView;
-import model.Ball;
+import com.ac.ball.controller.ConsoleJuggler;
+import com.ac.ball.model.Ball;
+import com.ac.ball.view.ConsoleBallView;
 
 public class BallSimulator {
 	public static void main(String... args) throws IOException {

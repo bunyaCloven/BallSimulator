@@ -1,9 +1,9 @@
-package view;
+package com.ac.ball.view;
 
 import java.util.Observable;
 import java.util.Observer;
 
-import model.Ball;
+import com.ac.ball.model.Ball;
 
 public class ConsoleBallView implements Observer {
 

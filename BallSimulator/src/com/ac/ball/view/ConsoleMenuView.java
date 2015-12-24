@@ -1,6 +1,6 @@
-package view;
+package com.ac.ball.view;
 
-import model.Menu;
+import com.ac.ball.model.Menu;
 
 public class ConsoleMenuView {
 	private Menu menu;

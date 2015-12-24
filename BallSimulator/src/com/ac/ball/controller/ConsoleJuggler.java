@@ -1,14 +1,14 @@
-package controller;
+package com.ac.ball.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Observer;
 
-import model.Ball;
-import model.BallState;
-import model.Menu;
-import view.ConsoleMenuView;
+import com.ac.ball.model.Ball;
+import com.ac.ball.model.BallState;
+import com.ac.ball.model.Menu;
+import com.ac.ball.view.ConsoleMenuView;
 
 public class ConsoleJuggler {
 
